@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="GodsOfCalamityBeta.GameOverPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:GodsOfCalamityBeta"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    xmlns:gaze="using:Microsoft.Toolkit.Uwp.Input.GazeInteraction"
+    gaze:GazeInput.IsCursorVisible="True"
+    gaze:GazeInput.CursorRadius="10"
+    gaze:GazeInput.Interaction="Enabled"
+    Background="Black">
+
+    <Grid>
+        <Canvas x:Name="GameOverSpace">
+            <TextBlock x:Name="gameOverText" Text="Game Over" FontFamily="Castellar" 
+                   FontSize="200" Foreground="White"/>
+            <Button x:Name="restartButton" FontWeight="Bold" gaze:GazeInput.DwellDuration="00:00:01.500"></Button>
+            <Button x:Name="exitButton" FontWeight="Bold" gaze:GazeInput.DwellDuration="00:00:01.500"></Button>
+        </Canvas>
+    </Grid>
+</Page>

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
+  <Identity Name="23993TeamCrios.GodsofCalamity" Publisher="CN=8B0321FA-F868-48C6-A6C1-2657AFA50241" Version="1.0.5.0" />
+  <mp:PhoneIdentity PhoneProductId="6617f017-3508-46cc-9a61-8b806f8a8d27" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
+  <Properties>
+    <DisplayName>Gods of Calamity</DisplayName>
+    <PublisherDisplayName>Team Crios</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.0.0" MaxVersionTested="10.0.0.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="GodsOfCalamityBeta.App">
+      <uap:VisualElements DisplayName="Gods of Calamity" Square150x150Logo="Assets\Logo.png" Square44x44Logo="Assets\SmallLogo.png" Description="Gods of Calamity is a top-down perspective survival game that tasks the player to defend a village from mobile hazards using the their vision. The game program utilizes HID-compliant eye-trackers in order to capture the player’s eye-movements, which allows the player to interact with certain game elements such as the hazards, village and UI." BackgroundColor="#464646">
+        <uap:DefaultTile Square310x310Logo="Assets\LargeTile.png" Wide310x150Logo="Assets\WideTile.png" Square71x71Logo="Assets\SmallTile.png">
+        </uap:DefaultTile>
+        <uap:LockScreen Notification="badge" BadgeLogo="Assets\BadgeLogo.png" />
+        <uap:SplashScreen Image="Assets\SplashScreen.png" BackgroundColor="darkSlateBlue" />
+        <uap:InitialRotationPreference>
+          <uap:Rotation Preference="landscape" />
+        </uap:InitialRotationPreference>
+      </uap:VisualElements>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <Capability Name="internetClient" />
+    <DeviceCapability Name="gazeInput" />
+  </Capabilities>
+</Package>
