@@ -27,4 +27,4 @@ Once the game begins, the neighboring-village centered on the screen will be bom
 ![alt text](https://store-images.s-microsoft.com/image/apps.51943.13723778762967460.ef19ddf8-9944-49fa-84c5-20850fa22dd8.ee830f7c-4a59-4bf8-ba7e-9c6c7c3e5811?w=1398&h=786&q=90&format=jpg)
 ## System Requirements:
 - Windows 10, version 1809 or higher.
-- [MonoGame 3.7.1](http://community.monogame.net/t/monogame-3-7-1-release/11173)<br />
+- [MonoGame 3.7.1.](http://community.monogame.net/t/monogame-3-7-1-release/11173)<br />
