@@ -11,7 +11,7 @@
 #### Mentor (Microsoft Research Team)
 • Jon Campbell
 ## Overview:
-Our main objectives of our project were to make a video game that was fully utilizes the functionality of an HUD-compliant eye-tracking device and to publish the game on the Microsoft Store. The game is intended to subtly familiarize users with utilizing an eye-tracker hardware device.
+An interactive eye-tracking game demo, targetted towards individuals with physical-limitations, with the purpose of subtly familiarizing users with the eye-tracking hardware device functional features. The game is intended to subtly familiarize users with utilizing an eye-tracker hardware device.
 
 On startup, the demo will begin after the interactive-icon is activated. Once the game begins, the neighboring-village centered on the screen will be bombarded by abnormal-disasters from the God of Calamity. The player is tasked with subverting the onslought of disaster-hazards (meteors, falling ships, fire-spread) by focusing their vision directly onto the hazards to successfull diminish the threat to befall the village.
 ## Gameplay Screenshots:
