@@ -1,7 +1,7 @@
 ###### Gods of Calamity is available on the Microsoft Store, which you can [download here](https://www.microsoft.com/en-us/p/gods-of-calamity/9np7trh589qw?rtc=1&activetab=pivot:overviewtab)!
-# Microsoft Eye-Tracking Game Development
+# Eye-Tracking Hardware-Feature Demonstration
 ### Project: Gods of Calamity
-### Mentor: Jon Campbell
+### Mentor: Jon Campbell (Microsoft Research Team)
 ## Team-Crios:
 • Mike Berger<br />
 • Kelsey Nash<br />
