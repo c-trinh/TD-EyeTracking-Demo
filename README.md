@@ -9,7 +9,7 @@
 • Matthew Trovillo<br />
 • Taryn Burns<br />
 ## Overview:
-Our main objectives of our project were to make a video game that was fully utilizes the functionality of an HID-compliant eye-tracking device and to publish the game on the Microsoft Store. On startup, the demo will begin after the interactive-icon is activated. The game is intended to subtly familiarize users with utilizing an eye-tracker hardware device.
+Our main objectives of our project were to make a video game that was fully utilizes the functionality of an HUD-compliant eye-tracking device and to publish the game on the Microsoft Store. On startup, the demo will begin after the interactive-icon is activated. The game is intended to subtly familiarize users with utilizing an eye-tracker hardware device.
 ## Ssytem Requirements:
 **MonoGame 3.7.1** is required, it can be [downloaded here](http://community.monogame.net/t/monogame-3-7-1-release/11173).<br />
 This project will not run on versions of Windows 10 older than 1809.
